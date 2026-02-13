@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111827" />
+    <meta name="description" content="Full Body Flow 15-minute workout routine" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/icons/icon-192.svg" />
+    <title>Full Body Flow</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app" aria-live="polite">
+      <header class="header">
+        <h1>Full Body Flow</h1>
+        <p class="subtitle">~15 minutes</p>
+        <p class="source"><a href="https://bend.com/routines/full-body" target="_blank" rel="noopener noreferrer">Based on Bend Full Body routine</a></p>
+      </header>
+
+      <section class="panel timers" aria-label="Timers">
+        <div>
+          <h2>Total Time</h2>
+          <p id="totalTimer" class="time">15:00</p>
+        </div>
+        <div>
+          <h2>Current Step</h2>
+          <p id="stepTimer" class="time">00:45</p>
+        </div>
+      </section>
+
+      <section class="panel progress" aria-label="Routine progress">
+        <p id="progressText">Step 1 of 20</p>
+        <progress id="progressBar" value="1" max="20">1/20</progress>
+      </section>
+
+      <article id="exerciseCard" class="panel exercise" aria-label="Current exercise">
+        <h2 id="exerciseName">Warm-Up March</h2>
+        <p id="exerciseMeta" class="exercise-meta">45 sec</p>
+        <p id="exerciseInstructions">Light marching in place, shoulders relaxed, breathe deeply.</p>
+      </article>
+
+      <section class="controls" aria-label="Playback controls">
+        <button id="prevBtn" type="button">Previous</button>
+        <button id="startPauseBtn" type="button" class="primary">Start</button>
+        <button id="nextBtn" type="button">Next</button>
+        <button id="resetBtn" type="button">Reset</button>
+      </section>
+
+      <section class="panel install" aria-label="Install app">
+        <button id="installBtn" type="button" hidden>Install App</button>
+        <p id="statusText" class="status">Ready for offline use after first load.</p>
+      </section>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

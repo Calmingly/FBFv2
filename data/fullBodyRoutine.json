@@ -1,0 +1,26 @@
+{
+  "title": "Full Body Flow",
+  "durationSeconds": 900,
+  "steps": [
+    {"name": "Warm-Up March", "duration": 45, "instructions": "Light marching in place, shoulders relaxed, breathe deeply."},
+    {"name": "Arm Circles", "duration": 45, "instructions": "Small circles forward then backward, keep core engaged."},
+    {"name": "Bodyweight Squats", "duration": 45, "instructions": "Feet shoulder-width, sit hips back, chest up."},
+    {"name": "Rest", "duration": 20, "instructions": "Shake out legs and breathe."},
+    {"name": "Reverse Lunges", "duration": 45, "instructions": "Alternate legs, step back softly, knee tracks over toes."},
+    {"name": "Rest", "duration": 20, "instructions": "Recover and reset stance."},
+    {"name": "Push-Ups", "duration": 45, "instructions": "Hands under shoulders, full-body plank. Knees down if needed."},
+    {"name": "Rest", "duration": 20, "instructions": "Relax shoulders and wrists."},
+    {"name": "Glute Bridges", "duration": 45, "instructions": "Drive through heels, squeeze glutes at top."},
+    {"name": "Rest", "duration": 20, "instructions": "Deep breaths."},
+    {"name": "Plank Hold", "duration": 45, "instructions": "Elbows under shoulders, keep hips level."},
+    {"name": "Rest", "duration": 20, "instructions": "Drop knees and recover."},
+    {"name": "Alternating Dead Bug", "duration": 45, "instructions": "Lower opposite arm/leg slowly while bracing core."},
+    {"name": "Rest", "duration": 20, "instructions": "Reset breathing."},
+    {"name": "Mountain Climbers", "duration": 45, "instructions": "Drive knees forward with controlled pace."},
+    {"name": "Rest", "duration": 20, "instructions": "Shake out and hydrate if needed."},
+    {"name": "Superman Lifts", "duration": 45, "instructions": "Lift chest and legs gently, squeeze upper back."},
+    {"name": "Rest", "duration": 20, "instructions": "Relax lower back."},
+    {"name": "Standing Side Bends", "duration": 45, "instructions": "Reach long through side body, alternate sides."},
+    {"name": "Cooldown Breathing", "duration": 60, "instructions": "Slow inhale through nose, long exhale through mouth."}
+  ]
+}

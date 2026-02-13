@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" role="img" aria-label="Full Body Flow icon">
+  <rect width="192" height="192" rx="32" fill="#111827"/>
+  <circle cx="96" cy="52" r="18" fill="#22c55e"/>
+  <path d="M96 74 L70 108 L84 118 L96 102 L108 118 L122 108 Z" fill="#22c55e"/>
+  <rect x="62" y="120" width="18" height="44" rx="9" fill="#22c55e"/>
+  <rect x="112" y="120" width="18" height="44" rx="9" fill="#22c55e"/>
+</svg>
