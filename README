@@ -1,1 +1,28 @@
 Full Body Flow v2
+# Full Body Flow v2
+
+A lightweight Progressive Web App for a ~15-minute full-body routine inspired by:
+https://bend.com/routines/full-body
+
+## Run locally
+Because this is a static app, serve it with any static file server.
+
+Examples:
+- `python3 -m http.server 4173`
+- `npx serve .`
+
+Then open `http://localhost:4173`.
+
+## Features
+- Mobile-first single page workout flow
+- Total timer and current-step timer
+- Next / Previous / Start / Pause / Reset controls
+- Local routine data in `data/fullBodyRoutine.json`
+- PWA install prompt support
+- Offline support via `sw.js` cache-first service worker
+
+## PWA checklist
+1. Open app once online.
+2. Confirm manifest is loaded (`/manifest.webmanifest`).
+3. Confirm service worker is active in browser devtools.
+4. Switch browser offline and reload; app should still open.
